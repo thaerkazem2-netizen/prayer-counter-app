@@ -1,0 +1,125 @@
+/* Islamic Pattern Background */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(46, 125, 50, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(46, 125, 50, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(255, 152, 0, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Arabic Text Styling */
+.arabic-text {
+    font-family: 'Scheherazade New', serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Animation for completed prayers */
+@keyframes celebrate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.completed {
+    animation: celebrate 0.5s ease-in-out;
+    background: linear-gradient(135deg, #4CAF50, #2E7D32) !important;
+    color: white;
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] body {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+[data-theme="dark"] .app-header {
+    background: rgba(30, 30, 30, 0.95);
+}
+
+[data-theme="dark"] .section {
+    background: var(--card-dark);
+    color: var(--text-dark);
+}
+
+[data-theme="dark"] .prayer-counter {
+    background: var(--card-dark);
+}
+
+[data-theme="dark"] .user-counter {
+    background: linear-gradient(135deg, rgba(46, 125, 50, 0.2), rgba(46, 125, 50, 0.1));
+}
+
+[data-theme="dark"] .hadith-container {
+    background: linear-gradient(135deg, rgba(255, 152, 0, 0.2), rgba(255, 152, 0, 0.1));
+}
+
+/* Notification types */
+.notification.success {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+}
+
+.notification.error {
+    background: linear-gradient(135deg, #f44336, #d32f2f);
+}
+
+.notification.info {
+    background: linear-gradient(135deg, #2196F3, #1976D2);
+}
+
+/* Floating animation for mosque icons */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0px); }
+}
+
+.prayer-info i {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Gradient backgrounds for different sections */
+.users-section {
+    background: linear-gradient(135deg, rgba(46, 125, 50, 0.05), rgba(255, 255, 255, 0.8));
+}
+
+.prayers-section {
+    background: linear-gradient(135deg, rgba(255, 152, 0, 0.05), rgba(255, 255, 255, 0.8));
+}
+
+.counter-section {
+    background: linear-gradient(135deg, rgba(33, 150, 243, 0.05), rgba(255, 255, 255, 0.8));
+}
+
+.hadith-section {
+    background: linear-gradient(135deg, rgba(156, 39, 176, 0.05), rgba(255, 255, 255, 0.8));
+}
+
+/* Responsive improvements for very small screens */
+@media (max-width: 360px) {
+    .app-title {
+        font-size: 1.4em;
+    }
+    
+    .basmala {
+        font-size: 1.1em;
+    }
+    
+    .section {
+        padding: 15px;
+    }
+    
+    .section h2 {
+        font-size: 1.2em;
+    }
+    
+    .prayer-counters {
+        grid-template-columns: 1fr;
+    }
+}

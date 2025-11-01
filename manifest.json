@@ -1,0 +1,24 @@
+{
+    "name": "عداد قضاء الصلوات",
+    "short_name": "عداد الصلوات",
+    "description": "تطبيق لإدارة وعد قضاء الصلوات الفائتة",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F5F5F5",
+    "theme_color": "#2E7D32",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiMyRTdEMzIiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAyQzEwLjkgMiAxMCAyLjkgMTAgNFY2SDVDMy45IDYgMyA2LjkgMyA4VjE5QzMgMjAuMSAzLjkgMjEgNSAyMUgxOUMyMC4xIDIxIDIxIDIwLjEgMjEgMTlWOEMyMSA2LjkgMjAuMSA2IDE5IDZIMTRWNEMxNCAyLjkgMTMuMSAyIDEyIDJaTTEyIDRWMTZDMTEgMTYgMTAuMjUgMTYuNDIgOS44MSAxNy4wOUw5IDE2TDEwLjUgMTRDMTAuNSAxMi45IDExLjIgMTIuMiAxMi4yIDEyLjJIMTJWNFpNNyAxMFYxMkgxMFYxMEg3Wk0xNyAxMFYxMkgxNFYxMEgxN1oiLz4KPC9zdmc+Cjwvc3ZnPgo=",
+            "sizes": "192x192",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiByeD0iNjQiIGZpbGw9IiMyRTdEMzIiLz4KPHN2ZyB4PSIxMjgiIHk9IjEyOCIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPgo8cGF0aCBkPSJNMTIgMkMxMC45IDIgMTAgMi45IDEwIDRWNkg1QzMuOSA2IDMgNi45IDMgOFYxOUMzIDIwLjEgMy45IDIxIDUgMjFIMTlDMjAuMSAyMSAyMSAyMC4xIDIxIDE5VjhDMjEgNi45IDIwLjEgNiAxOSA2SDE0VjRDMTQgMi45IDEzLjEgMiAxMiAyWk0xMiA0VjE2QzExIDE2IDEwLjI1IDE2LjQyIDkuODEgMTcuMDlMOSAxNkwxMC41IDE0QzEwLjUgMTIuOSAxMS4yIDEyLjIgMTIuMiAxMi4ySDEyVjRNNyAxMFYxMkgxMFYxMEg3Wk0xNyAxMFYxMkgxNFYxMEgxN1oiLz4KPC9zdmc+Cjwvc3ZnPgo=",
+            "sizes": "512x512",
+            "type": "image/svg+xml"
+        }
+    ],
+    "lang": "ar",
+    "dir": "rtl"
+}
